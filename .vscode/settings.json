@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.configurationProvider": "go2sh.cmake-integration",
+    "C_Cpp.default.includePath": ["/home/office/src/cpp/Qt_cmake"],
+    "C_Cpp.default.systemIncludePath": [
+        "/usr/include"
+    ],
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "/home/office/src/vcpkg/scripts/buildsystems/vcpkg.cmake"
+      }"
+}

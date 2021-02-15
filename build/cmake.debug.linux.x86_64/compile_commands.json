@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64 -I/home/office/src/cpp/Qt_cmake -I/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/Qt_cmake_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -fPIC -std=gnu++11 -o CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/mocs_compilation.cpp.o -c /home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/Qt_cmake_autogen/mocs_compilation.cpp",
+  "file": "/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/Qt_cmake_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64 -I/home/office/src/cpp/Qt_cmake -I/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/Qt_cmake_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -fPIC -std=gnu++11 -o CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.o -c /home/office/src/cpp/Qt_cmake/Qt_cmake.cpp",
+  "file": "/home/office/src/cpp/Qt_cmake/Qt_cmake.cpp"
+},
+{
+  "directory": "/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64 -I/home/office/src/cpp/Qt_cmake -I/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/Qt_cmake_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -fPIC -std=gnu++11 -o CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.o -c /home/office/src/cpp/Qt_cmake/view/mainwindow.cpp",
+  "file": "/home/office/src/cpp/Qt_cmake/view/mainwindow.cpp"
+},
+{
+  "directory": "/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64 -I/home/office/src/cpp/Qt_cmake -I/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/Qt_cmake_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -fPIC -std=gnu++11 -o CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.o -c /home/office/src/cpp/Qt_cmake/data/dicomobj.cpp",
+  "file": "/home/office/src/cpp/Qt_cmake/data/dicomobj.cpp"
+}
+]

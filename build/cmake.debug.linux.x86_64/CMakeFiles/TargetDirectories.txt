@@ -1,0 +1,4 @@
+/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/CMakeFiles/rebuild_cache.dir
+/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/CMakeFiles/edit_cache.dir
+/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/CMakeFiles/Qt_cmake.dir
+/home/office/src/cpp/Qt_cmake/build/cmake.debug.linux.x86_64/CMakeFiles/Qt_cmake_autogen.dir

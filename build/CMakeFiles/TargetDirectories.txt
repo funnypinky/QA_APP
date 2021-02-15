@@ -1,0 +1,4 @@
+/home/office/src/cpp/Qt_cmake/build/CMakeFiles/rebuild_cache.dir
+/home/office/src/cpp/Qt_cmake/build/CMakeFiles/edit_cache.dir
+/home/office/src/cpp/Qt_cmake/build/CMakeFiles/Qt_cmake.dir
+/home/office/src/cpp/Qt_cmake/build/CMakeFiles/Qt_cmake_autogen.dir
