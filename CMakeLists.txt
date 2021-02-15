@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 2.6)
+cmake_minimum_required (VERSION 3.0)
 
 if(DEFINED ENV{VCPKG_ROOT} AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
   set(CMAKE_TOOLCHAIN_FILE "/home/office/src/vcpkg/scripts/buildsystems/vcpkg.cmake"
@@ -10,15 +10,15 @@ project (Qt_cmake LANGUAGES CXX)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
  # Widgets finds its own dependencies (QtGui and QtCore).
-  find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
+ find_package(QT NAMES Qt6 Qt5 COMPONENTS Core Quick REQUIRED)
+ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Quick REQUIRED) 
 	find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 	find_package(OpenCV REQUIRED)
 	find_package(DCMTK REQUIRED)
 
   # The Qt5Widgets_INCLUDES also includes the include directories for
   # dependencies QtCore and QtGui
-  	include_directories(${Qt5Widgets_INCLUDES})
-
+  include_directories(${Qt5Widgets_INCLUDES})
 	include_directories( ${OpenCV_INCLUDE_DIRS} )
 
   # We need add -DQT_WIDGETS_LIB when using QtWidgets in Qt 5.
@@ -45,5 +45,13 @@ Qt_cmake.cpp
     helper/asmOpenCV.h
     analyse/analysefactory.h
     analyse/analysefactory.cpp
+    helper/stringHelper.h
+    helper/stringHelper.cpp
+    view/slider/RangeSlider.cpp
+    view/slider/RangeSlider.h
+    ressources.qrc
 )
-target_link_libraries(Qt_cmake dcmimgle ${Qt5Widgets_LIBRARIES} ${OpenCV_LIBS})
+target_link_libraries(Qt_cmake dcmimgle ${Qt5Widgets_LIBRARIES} ${OpenCV_LIBS} Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Quick)
+
+target_compile_definitions(Qt_cmake
+  PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)

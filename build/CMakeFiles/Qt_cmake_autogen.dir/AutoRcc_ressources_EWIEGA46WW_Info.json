@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/office/src/cpp/Qt_cmake/build/Qt_cmake_autogen",
+	"CMAKE_BINARY_DIR" : "/home/office/src/cpp/Qt_cmake/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/office/src/cpp/Qt_cmake/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/office/src/cpp/Qt_cmake",
+	"CMAKE_SOURCE_DIR" : "/home/office/src/cpp/Qt_cmake",
+	"INCLUDE_DIR" : "/home/office/src/cpp/Qt_cmake/build/Qt_cmake_autogen/include",
+	"INPUTS" : [ "/home/office/src/cpp/Qt_cmake/stylesheet.qss" ],
+	"LOCK_FILE" : "/home/office/src/cpp/Qt_cmake/build/CMakeFiles/Qt_cmake_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "ressources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_ressources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib64/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/office/src/cpp/Qt_cmake/build/CMakeFiles/Qt_cmake_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/office/src/cpp/Qt_cmake/ressources.qrc",
+	"VERBOSITY" : 0
+}

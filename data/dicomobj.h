@@ -32,7 +32,7 @@ public :
 	void setFilename(char* filename);
         char* getImageName();
         ~DCMObject();
-    double * getPixelSize();
+    vector<double> getPixelSize();
 };
 
 

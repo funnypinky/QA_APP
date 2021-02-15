@@ -182,6 +182,33 @@ Qt_cmake.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.s
 .PHONY : Qt_cmake.cpp.s
 
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.o: Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o
+
+.PHONY : Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.o
+
+# target to build an object file
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o
+.PHONY : Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o
+
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.i: Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.i
+
+.PHONY : Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.i
+
+# target to preprocess a source file
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.i
+.PHONY : Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.i
+
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.s: Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.s
+
+.PHONY : Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.s
+
+# target to generate assembly for a file
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.s
+.PHONY : Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.s
+
 Qt_cmake_autogen/mocs_compilation.o: Qt_cmake_autogen/mocs_compilation.cpp.o
 
 .PHONY : Qt_cmake_autogen/mocs_compilation.o
@@ -263,6 +290,33 @@ data/dicomobj.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.s
 .PHONY : data/dicomobj.cpp.s
 
+helper/stringHelper.o: helper/stringHelper.cpp.o
+
+.PHONY : helper/stringHelper.o
+
+# target to build an object file
+helper/stringHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.o
+.PHONY : helper/stringHelper.cpp.o
+
+helper/stringHelper.i: helper/stringHelper.cpp.i
+
+.PHONY : helper/stringHelper.i
+
+# target to preprocess a source file
+helper/stringHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.i
+.PHONY : helper/stringHelper.cpp.i
+
+helper/stringHelper.s: helper/stringHelper.cpp.s
+
+.PHONY : helper/stringHelper.s
+
+# target to generate assembly for a file
+helper/stringHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.s
+.PHONY : helper/stringHelper.cpp.s
+
 view/mainwindow.o: view/mainwindow.cpp.o
 
 .PHONY : view/mainwindow.o
@@ -290,6 +344,33 @@ view/mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.s
 .PHONY : view/mainwindow.cpp.s
 
+view/slider/RangeSlider.o: view/slider/RangeSlider.cpp.o
+
+.PHONY : view/slider/RangeSlider.o
+
+# target to build an object file
+view/slider/RangeSlider.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.o
+.PHONY : view/slider/RangeSlider.cpp.o
+
+view/slider/RangeSlider.i: view/slider/RangeSlider.cpp.i
+
+.PHONY : view/slider/RangeSlider.i
+
+# target to preprocess a source file
+view/slider/RangeSlider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.i
+.PHONY : view/slider/RangeSlider.cpp.i
+
+view/slider/RangeSlider.s: view/slider/RangeSlider.cpp.s
+
+.PHONY : view/slider/RangeSlider.s
+
+# target to generate assembly for a file
+view/slider/RangeSlider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Qt_cmake.dir/build.make CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.s
+.PHONY : view/slider/RangeSlider.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -303,6 +384,9 @@ help:
 	@echo "... Qt_cmake.o"
 	@echo "... Qt_cmake.i"
 	@echo "... Qt_cmake.s"
+	@echo "... Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.o"
+	@echo "... Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.i"
+	@echo "... Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.s"
 	@echo "... Qt_cmake_autogen/mocs_compilation.o"
 	@echo "... Qt_cmake_autogen/mocs_compilation.i"
 	@echo "... Qt_cmake_autogen/mocs_compilation.s"
@@ -312,9 +396,15 @@ help:
 	@echo "... data/dicomobj.o"
 	@echo "... data/dicomobj.i"
 	@echo "... data/dicomobj.s"
+	@echo "... helper/stringHelper.o"
+	@echo "... helper/stringHelper.i"
+	@echo "... helper/stringHelper.s"
 	@echo "... view/mainwindow.o"
 	@echo "... view/mainwindow.i"
 	@echo "... view/mainwindow.s"
+	@echo "... view/slider/RangeSlider.o"
+	@echo "... view/slider/RangeSlider.i"
+	@echo "... view/slider/RangeSlider.s"
 .PHONY : help
 
 

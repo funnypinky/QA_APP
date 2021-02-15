@@ -1,6 +1,11 @@
 #define ABI_ID "ELF"
 #define QT_CORE_LIB 1
 #define QT_GUI_LIB 1
+#define QT_NETWORK_LIB 1
+#define QT_QMLMODELS_LIB 1
+#define QT_QML_DEBUG 1
+#define QT_QML_LIB 1
+#define QT_QUICK_LIB 1
 #define QT_WIDGETS_LIB 1
 #define SIZEOF_DPTR (sizeof(void*))
 #define _GNU_SOURCE 1

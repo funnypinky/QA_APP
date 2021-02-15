@@ -5,15 +5,17 @@
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 
-AnalyseFactory::AnalyseFactory(cv::Mat &sourceMat)
+AnalyseFactory::AnalyseFactory(cv::Mat &sourceMat, double pixelSpacing)
 {
     this->sourceMat = sourceMat;
+    this->pixelSpacing = pixelSpacing;
 }
 
 void AnalyseFactory::processFactory()
 {
     int cannyThreshold = 25;
     cv::blur(this->sourceMat, this->blurMat, cv::Size(3, 3));
+    cv::threshold(this->blurMat,this->blurMat,128,255,cv::THRESH_BINARY);
     cv::Canny(this->blurMat, this->cannyMat, cannyThreshold, cannyThreshold * 3);
     vector<vector<cv::Point>> contours;
     vector<cv::Vec4i> hierarchy;
@@ -34,6 +36,9 @@ void AnalyseFactory::processFactory()
         circle(this->resultMat, corners[i], 2, cv::Scalar(0, 0, 255), cv::FILLED);
     }
     cv::rectangle(this->resultMat, this->leftUpperCorner, this->rightLowerCorner, cv::Scalar(0, 0, 255));
+    this->a = (this->rightLowerCorner.x-this->leftUpperCorner.x)*this->pixelSpacing;
+    this->b = (this->rightLowerCorner.y-this->leftUpperCorner.y)*this->pixelSpacing;
+    this->area = a*b;
 }
 
 vector<cv::Point2f> AnalyseFactory::featureToTrack(cv::Mat source)

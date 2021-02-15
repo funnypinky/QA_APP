@@ -21,7 +21,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->imageSelection->setId(ui->blurRBt,1);
     ui->imageSelection->setId(ui->cannyRBt,2);
     ui->imageSelection->setId(ui->resultRBt,3);
-
+    ui->resultLabel->setAlignment(Qt::AlignTop);
 }
 
 MainWindow::~MainWindow() {
@@ -42,8 +42,7 @@ void MainWindow::on_openBt_clicked() {
 void MainWindow::on_fileListView_currentItemChanged(QListWidgetItem *current, QListWidgetItem *previous)
 {
     cv::Mat img = dcms.at(current->text().toStdString()).getImageMat();
-    std::cout << dcms.at(current->text().toStdString()).getPixelSize() << std::endl;
-    analyse = new AnalyseFactory(img);
+    analyse = new AnalyseFactory(img,dcms.at(current->text().toStdString()).getPixelSize().at(0));
     analyse->processFactory();
     ui->blurRBt->setEnabled(true);
     ui->cannyRBt->setEnabled(true);
@@ -89,6 +88,11 @@ void MainWindow::showMat(int id){
     case 2: img = analyse->getCannyMat();
         break;
     case 3: img = analyse->getResultMat();
+        QString text = "Area[mm²]: ";
+        text.append(QString::number(analyse->getArea(),'f',2)).append("\n");
+        text.append("Fieldsize [mm]: ");
+        text.append(QString::number(analyse->a,'f',2)).append("x").append(QString::number(analyse->b,'f',2)).append("\n");
+        ui->resultLabel->setText(text);
         break;
     }
 

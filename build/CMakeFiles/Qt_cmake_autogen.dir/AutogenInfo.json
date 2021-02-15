@@ -33,16 +33,37 @@
 		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
-		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
-		"/usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
-		"/usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake",
 		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
 		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake",
 		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
 		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
 		"/usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/lib64/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5Quick/Qt5QuickConfig.cmake",
+		"/usr/lib64/cmake/Qt5QmlModels/Qt5QmlModelsConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5QmlConfig.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/usr/lib64/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake",
+		"/usr/lib64/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake",
+		"/usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake",
 		"/usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
 		"/usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
 		"/usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
@@ -72,6 +93,11 @@
 		"/usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
 		"/usr/lib64/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
 		"/usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
 		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
@@ -85,7 +111,8 @@
 		"/usr/lib64/cmake/dcmtk/DCMTKConfigVersion.cmake",
 		"/usr/lib64/cmake/dcmtk/DCMTKConfig.cmake",
 		"/usr/lib64/cmake/dcmtk/DCMTKTargets.cmake",
-		"/usr/lib64/cmake/dcmtk/DCMTKTargets-release.cmake"
+		"/usr/lib64/cmake/dcmtk/DCMTKTargets-release.cmake",
+		"/home/office/src/cpp/Qt_cmake/ressources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/office/src/cpp/Qt_cmake",
 	"DEP_FILE" : "",
@@ -108,15 +135,35 @@
 			"UDLBVYHCV3/moc_asmOpenCV.cpp"
 		],
 		[
+			"/home/office/src/cpp/Qt_cmake/helper/stringHelper.h",
+			"MU",
+			"UDLBVYHCV3/moc_stringHelper.cpp"
+		],
+		[
 			"/home/office/src/cpp/Qt_cmake/view/mainwindow.h",
 			"MU",
 			"OTUN7GXZT4/moc_mainwindow.cpp"
+		],
+		[
+			"/home/office/src/cpp/Qt_cmake/view/slider/RangeSlider.h",
+			"MU",
+			"ET6KJGYVS3/moc_RangeSlider.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/office/src/cpp/Qt_cmake/build/Qt_cmake_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/office/src/cpp/Qt_cmake/build/Qt_cmake_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_DEBUG",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -134,6 +181,10 @@
 		"/usr/include/qt5/QtGui",
 		"/usr/include/qt5/QtCore",
 		"/usr/lib64/qt5/mkspecs/linux-g++",
+		"/usr/include/qt5/QtQuick",
+		"/usr/include/qt5/QtQmlModels",
+		"/usr/include/qt5/QtQml",
+		"/usr/include/qt5/QtNetwork",
 		"/usr/include/c++/10",
 		"/usr/include/c++/10/x86_64-redhat-linux",
 		"/usr/include/c++/10/backward",
@@ -168,7 +219,9 @@
 		[ "/home/office/src/cpp/Qt_cmake/Qt_cmake.cpp", "MU" ],
 		[ "/home/office/src/cpp/Qt_cmake/analyse/analysefactory.cpp", "MU" ],
 		[ "/home/office/src/cpp/Qt_cmake/data/dicomobj.cpp", "MU" ],
-		[ "/home/office/src/cpp/Qt_cmake/view/mainwindow.cpp", "MU" ]
+		[ "/home/office/src/cpp/Qt_cmake/helper/stringHelper.cpp", "MU" ],
+		[ "/home/office/src/cpp/Qt_cmake/view/mainwindow.cpp", "MU" ],
+		[ "/home/office/src/cpp/Qt_cmake/view/slider/RangeSlider.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

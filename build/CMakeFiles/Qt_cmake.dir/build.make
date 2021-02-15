@@ -76,9 +76,16 @@ include CMakeFiles/Qt_cmake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Qt_cmake.dir/flags.make
 
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp: ../ressources.qrc
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp: CMakeFiles/Qt_cmake_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Info.json
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp: ../stylesheet.qss
+Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp: /usr/lib64/qt5/bin/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for ressources.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/office/src/cpp/Qt_cmake/build/CMakeFiles/Qt_cmake_autogen.dir/AutoRcc_ressources_EWIEGA46WW_Info.json Debug
+
 CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/mocs_compilation.cpp.o: CMakeFiles/Qt_cmake.dir/flags.make
 CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/mocs_compilation.cpp.o: Qt_cmake_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/mocs_compilation.cpp.o -c /home/office/src/cpp/Qt_cmake/build/Qt_cmake_autogen/mocs_compilation.cpp
 
 CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/mocs_compilation.cpp.i: cmake_force
@@ -91,7 +98,7 @@ CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/mocs_compilation.cpp.s: cmake_force
 
 CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.o: CMakeFiles/Qt_cmake.dir/flags.make
 CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.o: ../Qt_cmake.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.o"
 	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.o -c /home/office/src/cpp/Qt_cmake/Qt_cmake.cpp
 
 CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.i: cmake_force
@@ -104,7 +111,7 @@ CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.s: cmake_force
 
 CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.o: CMakeFiles/Qt_cmake.dir/flags.make
 CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.o: ../view/mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.o"
 	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.o -c /home/office/src/cpp/Qt_cmake/view/mainwindow.cpp
 
 CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.i: cmake_force
@@ -117,7 +124,7 @@ CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.s: cmake_force
 
 CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.o: CMakeFiles/Qt_cmake.dir/flags.make
 CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.o: ../data/dicomobj.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.o"
 	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.o -c /home/office/src/cpp/Qt_cmake/data/dicomobj.cpp
 
 CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.i: cmake_force
@@ -130,7 +137,7 @@ CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.s: cmake_force
 
 CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.o: CMakeFiles/Qt_cmake.dir/flags.make
 CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.o: ../analyse/analysefactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.o"
 	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.o -c /home/office/src/cpp/Qt_cmake/analyse/analysefactory.cpp
 
 CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.i: cmake_force
@@ -141,13 +148,55 @@ CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.s"
 	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/office/src/cpp/Qt_cmake/analyse/analysefactory.cpp -o CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.s
 
+CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.o: CMakeFiles/Qt_cmake.dir/flags.make
+CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.o: ../helper/stringHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.o"
+	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.o -c /home/office/src/cpp/Qt_cmake/helper/stringHelper.cpp
+
+CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.i"
+	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/office/src/cpp/Qt_cmake/helper/stringHelper.cpp > CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.i
+
+CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.s"
+	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/office/src/cpp/Qt_cmake/helper/stringHelper.cpp -o CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.s
+
+CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.o: CMakeFiles/Qt_cmake.dir/flags.make
+CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.o: ../view/slider/RangeSlider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.o"
+	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.o -c /home/office/src/cpp/Qt_cmake/view/slider/RangeSlider.cpp
+
+CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.i"
+	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/office/src/cpp/Qt_cmake/view/slider/RangeSlider.cpp > CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.i
+
+CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.s"
+	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/office/src/cpp/Qt_cmake/view/slider/RangeSlider.cpp -o CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.s
+
+CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o: CMakeFiles/Qt_cmake.dir/flags.make
+CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o: Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o"
+	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o -c /home/office/src/cpp/Qt_cmake/build/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp
+
+CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.i"
+	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/office/src/cpp/Qt_cmake/build/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp > CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.i
+
+CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.s"
+	/usr/bin/clang++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/office/src/cpp/Qt_cmake/build/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp -o CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.s
+
 # Object files for target Qt_cmake
 Qt_cmake_OBJECTS = \
 "CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.o" \
 "CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.o" \
 "CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.o" \
-"CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.o"
+"CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.o" \
+"CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.o" \
+"CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.o" \
+"CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o"
 
 # External object files for target Qt_cmake
 Qt_cmake_EXTERNAL_OBJECTS =
@@ -157,6 +206,9 @@ Qt_cmake: CMakeFiles/Qt_cmake.dir/Qt_cmake.cpp.o
 Qt_cmake: CMakeFiles/Qt_cmake.dir/view/mainwindow.cpp.o
 Qt_cmake: CMakeFiles/Qt_cmake.dir/data/dicomobj.cpp.o
 Qt_cmake: CMakeFiles/Qt_cmake.dir/analyse/analysefactory.cpp.o
+Qt_cmake: CMakeFiles/Qt_cmake.dir/helper/stringHelper.cpp.o
+Qt_cmake: CMakeFiles/Qt_cmake.dir/view/slider/RangeSlider.cpp.o
+Qt_cmake: CMakeFiles/Qt_cmake.dir/Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp.o
 Qt_cmake: CMakeFiles/Qt_cmake.dir/build.make
 Qt_cmake: /usr/lib64/libdcmimgle.so.14.3.6.4
 Qt_cmake: /usr/lib64/libopencv_gapi.so.4.3.0
@@ -193,14 +245,13 @@ Qt_cmake: /usr/lib64/libopencv_videostab.so.4.3.0
 Qt_cmake: /usr/lib64/libopencv_viz.so.4.3.0
 Qt_cmake: /usr/lib64/libopencv_xobjdetect.so.4.3.0
 Qt_cmake: /usr/lib64/libopencv_xphoto.so.4.3.0
+Qt_cmake: /usr/lib64/libQt5Quick.so.5.15.2
 Qt_cmake: /usr/lib64/libdcmdata.so.14.3.6.4
 Qt_cmake: /usr/lib64/liboflog.so.14.3.6.4
 Qt_cmake: /usr/lib64/libofstd.so.14.3.6.4
 Qt_cmake: /usr/lib64/libz.so
 Qt_cmake: /usr/lib64/libopencv_highgui.so.4.3.0
 Qt_cmake: /usr/lib64/libQt5Widgets.so.5.15.2
-Qt_cmake: /usr/lib64/libQt5Gui.so.5.15.2
-Qt_cmake: /usr/lib64/libQt5Core.so.5.15.2
 Qt_cmake: /usr/lib64/libopencv_datasets.so.4.3.0
 Qt_cmake: /usr/lib64/libopencv_plot.so.4.3.0
 Qt_cmake: /usr/lib64/libopencv_text.so.4.3.0
@@ -219,8 +270,13 @@ Qt_cmake: /usr/lib64/libopencv_flann.so.4.3.0
 Qt_cmake: /usr/lib64/libopencv_photo.so.4.3.0
 Qt_cmake: /usr/lib64/libopencv_imgproc.so.4.3.0
 Qt_cmake: /usr/lib64/libopencv_core.so.4.3.0
+Qt_cmake: /usr/lib64/libQt5Gui.so.5.15.2
+Qt_cmake: /usr/lib64/libQt5QmlModels.so.5.15.2
+Qt_cmake: /usr/lib64/libQt5Qml.so.5.15.2
+Qt_cmake: /usr/lib64/libQt5Network.so.5.15.2
+Qt_cmake: /usr/lib64/libQt5Core.so.5.15.2
 Qt_cmake: CMakeFiles/Qt_cmake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Qt_cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/office/src/cpp/Qt_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Qt_cmake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Qt_cmake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -232,7 +288,7 @@ CMakeFiles/Qt_cmake.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/Qt_cmake.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/Qt_cmake.dir/clean
 
-CMakeFiles/Qt_cmake.dir/depend:
+CMakeFiles/Qt_cmake.dir/depend: Qt_cmake_autogen/EWIEGA46WW/qrc_ressources.cpp
 	cd /home/office/src/cpp/Qt_cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/office/src/cpp/Qt_cmake /home/office/src/cpp/Qt_cmake /home/office/src/cpp/Qt_cmake/build /home/office/src/cpp/Qt_cmake/build /home/office/src/cpp/Qt_cmake/build/CMakeFiles/Qt_cmake.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Qt_cmake.dir/depend
 

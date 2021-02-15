@@ -11,10 +11,14 @@
 #include <iomanip>
 #include <sstream>
 #include <string>
+#include <math.h>
 #include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
+#include <cstring>
+#include <locale.h>
+#include "../helper/stringHelper.h"
 
 DcmDataset *metaInfos = new DcmDataset();
 
@@ -66,15 +70,22 @@ char* DCMObject::getImageName() {
     return name;
 }
 
-double* DCMObject::getPixelSize() {
+vector<double> DCMObject::getPixelSize() {
     DcmElement *elem;
-    static double returnValue[2] = {};
+    vector<double> returnValue;
     OFCondition status = metaInfos->findAndGetElement(DCM_ImagePlanePixelSpacing,elem);
     if(status.good()){
         char *yValue;
         elem->getString(yValue);
-        
-        std::cout << yValue<<std::endl;
+        vector<string> token = Alg::splitStr(yValue, '\\');
+        std::locale::global(std::locale("en_US.utf8"));
+        for(std::size_t i = 0; i < token.size(); i++){
+            returnValue.push_back(std::stod(token.at(i)));
+        }
+        std::locale::global(std::locale(""));
+
+    } else {
+        std::cerr << status.text() << std::endl;
     }
     return returnValue;
 }

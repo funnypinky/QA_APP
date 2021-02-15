@@ -15,6 +15,7 @@
 #include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -38,6 +39,7 @@ public:
     QRadioButton *blurRBt;
     QRadioButton *cannyRBt;
     QRadioButton *resultRBt;
+    QLabel *resultLabel;
     QMenuBar *menubar;
     QStatusBar *statusbar;
     QButtonGroup *imageSelection;
@@ -47,7 +49,7 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->setWindowModality(Qt::ApplicationModal);
-        MainWindow->resize(1824, 1024);
+        MainWindow->resize(1200, 1024);
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -101,10 +103,13 @@ public:
 
         horizontalLayout->addWidget(resultRBt);
 
+        resultLabel = new QLabel(centralwidget);
+        resultLabel->setObjectName(QString::fromUtf8("resultLabel"));
+        resultLabel->setGeometry(QRect(975, 48, 291, 101));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1824, 24));
+        menubar->setGeometry(QRect(0, 0, 1200, 24));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -124,6 +129,7 @@ public:
         blurRBt->setText(QCoreApplication::translate("MainWindow", "Blur", nullptr));
         cannyRBt->setText(QCoreApplication::translate("MainWindow", "Canny", nullptr));
         resultRBt->setText(QCoreApplication::translate("MainWindow", "Result", nullptr));
+        resultLabel->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><br/></p></body></html>", nullptr));
     } // retranslateUi
 
 };

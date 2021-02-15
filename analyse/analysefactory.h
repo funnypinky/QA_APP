@@ -17,14 +17,19 @@ private:
     cv::Point2f leftLowerCorner;
     cv::Point2f rightUpperCorner;
     vector<cv::Point2f> featureToTrack(cv::Mat source);
+    double area;
+    double pixelSpacing;
 
 public:
-    AnalyseFactory(cv::Mat &sourceMat);
+    AnalyseFactory(cv::Mat &sourceMat, double pixelSpacing);
     cv::Mat getResultMat(){return resultMat;};
     cv::Mat getCannyMat(){return cannyMat;};
     cv::Mat getBlurMat(){return blurMat;};
     void processFactory();
     void defineCorner(vector<cv::Point2f> corners);
+    double getArea(){return area;};
+    double a;
+    double b;
 };
 
 #endif // ANALYSEFACTORY_H

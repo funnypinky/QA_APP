@@ -8,7 +8,7 @@
 					"build" : ".",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.6"
+						"string" : "3.0"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Qt_cmake::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Qt_cmake-Debug-1eabe9b7bf567b4d1c85.json",
+					"jsonFile" : "target-Qt_cmake-Debug-51fb8ddc7742888ba458.json",
 					"name" : "Qt_cmake",
 					"projectIndex" : 0
 				},
